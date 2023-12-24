@@ -1,0 +1,224 @@
+BODY
+{
+margin:auto;
+}
+
+ .nav-wrapper{
+     background-color:#00B300;
+     padding:5px;
+     width:100%;
+     top:0;
+     position:sticky;
+     z-index:1;
+ }
+
+ .nav-list{
+     list-style:none;
+     padding:0;
+     display:flex;
+     align-items:stretch;
+     width:100%;
+     justify-content:space-around;
+ }
+
+.nav-list li {
+        display: inline;
+        margin: 0px;
+    }
+
+ .nav-list li a:hover{
+     background-color:darkorange;
+ }
+
+.nav-list li a:active{
+    background-color: darkgreen;
+}
+
+.nav-list li a:visited {
+    background-color: darkviolet;
+}
+
+.nav-item{
+    color:aliceblue;
+}
+
+.form-container {
+    background-color: #323232;
+    width: 320px;
+    position: fixed;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom:-280px;
+    right:0;
+    transition: .5s;
+
+}
+
+.form-container:hover{
+    bottom:0;
+}
+
+#email-icon{
+    width: 50px;
+    float: left;
+
+}
+
+.form-head-container {
+    background-color: #000000;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom:10px;
+}
+
+.form-item{
+    margin-left:15px;
+    color:white;
+    padding-left:8px;
+}
+
+#SUBJECT{
+    height:100PX;
+     width:200PX;
+
+}
+
+#CONTACT-us-label{
+    color:white;
+}
+
+#submit-btn{
+    background-color:#4CAF50;
+    border:none;
+    color:white;
+    padding:7px 12px;
+    margin:8PX 16PX;
+    text-align:center;
+    text-decoration:underline;
+    display:inline-block;
+    cursor:pointer;
+
+}
+
+.caption-1{
+    position:absolute;
+    top:40%;
+    left:25%;
+    color:brown;
+    font-size:3vw;
+    animation-name:caption-fade;
+    animation-duration:2s;
+}
+
+@keyframes caption-fade{
+    0%{opacity:0;top:0;}
+    100%{opacity:100%;top:40%}
+}
+
+.featured-wrapper {
+    position: relative;
+    display: flex;
+    overflow: auto;
+    justify-content: space-around;
+}
+
+.product-container {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    margin-top:8px;
+    text-align: center;
+    max-width:20%;
+    position:relative;
+    border-radius:20PX;
+    border-style:solid;
+    border-width:2PX;
+    animation-name:product-contain-anim;
+    animation-duration:2s;
+}
+
+@keyframes product-contain-anim {
+    0% {
+        opacity: 0;
+        margin-top: 500PX;
+    }
+    100%{opacity:1;margin-top:500PX;}
+    
+}
+
+.prod-cont-img{
+    max-width:100%;
+    position:relative;
+    top:36px;
+}
+
+.cat-text{
+    font-size:1.5vw;
+    font-weight:bold;
+    color:white;
+    margin-top:10%;
+    margin-bottom:-2%;
+}
+
+.VIEW-MORE-Btn {
+    background-color: #4CAF50;
+    max-width: 100%;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    margin: 8PX 16PX;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5PX;
+}
+
+.VIEW-MORE-Btn:hover{
+    background-color:darkorange;
+}
+
+.bTN-conTAINer {
+    background-color: white;
+    position: relative;
+    top: 100%;
+    padding: 7%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#SOCIAL-container {
+    display: list-item;
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+}
+
+#facebOOK-container {
+    width: 5PX;
+    transition: .5S;
+}
+
+#facebOOK-container:hover {
+        padding-left: 20%;
+    }
+
+#instagram-container {
+    transition: .5S;
+}
+
+
+#instagram-container:hover {
+    padding-left: 20%;
+}
+#twITTER-container {
+    transition: .5S;
+}
+
+
+    #twITTER-container:hover {
+        padding-left: 20%;
+    }
+
+.background-img {
+    width: 100%;
+}
